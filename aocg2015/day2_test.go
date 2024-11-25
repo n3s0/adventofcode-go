@@ -1,4 +1,4 @@
-package daytwo
+package aocg2015
 
 import (
     "fmt"
@@ -32,7 +32,7 @@ func TestDayTwo(t *testing.T) {
     fmt.Printf("\n---- Day Two :: Part One ----\n")
 
     for _, test := range partOneTest {
-        squareFootageOutput := partOne(test.input)
+        squareFootageOutput := dayTwoPartOne(test.input)
         if squareFootageOutput != test.expected {
             failCount++
             t.Errorf(`-------------------------------
@@ -62,7 +62,7 @@ Pass
     fmt.Printf("\n---- Day Two :: Part Two ----\n")
 
     for _, test := range partTwoTest {
-        squareFootageOutput := partTwo(test.input)
+        squareFootageOutput := dayTwoPartTwo(test.input)
         if squareFootageOutput != test.expected {
             failCount++
             t.Errorf(`-------------------------------

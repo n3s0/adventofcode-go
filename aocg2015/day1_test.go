@@ -1,4 +1,4 @@
-package dayone
+package aocg2015
 
 import (
     "fmt"

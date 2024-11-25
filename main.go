@@ -1,13 +1,9 @@
 package main
 
 import (
-    "fmt"
-    "github.com/n3s0/adventofcode-go/aocg/aoc2015"
+    "github.com/n3s0/adventofcode-go/cmd"
 )
 
 func main() {
-    var input string
-
-    fmt.Print("Enter a value:")
-    fmt.Scanln(&input)
+    cmd.Execute()
 }
