@@ -1,4 +1,4 @@
-package aocg2015
+package aocgtwft
 
 import (
     "fmt"

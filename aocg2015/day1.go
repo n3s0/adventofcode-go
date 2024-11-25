@@ -1,4 +1,4 @@
-package aocg2015
+package aocgtwft
 
 import (
     "strings"
@@ -37,7 +37,7 @@ For example:
 
 To what floor do the instructions take Santa?
 */
-func partOne(input string) (floor int) {
+func dayOnePartOne(input string) (floor int) {
     var up string = "("
     var down string = ")"
     
@@ -72,7 +72,7 @@ For example:
 What is the position of the character that causes Santa to first enter the 
 basement?
 */
-func partTwo(input string) (basementIdx int) {
+func dayOnePartTwo(input string) (basementIdx int) {
     var floor int
     var up string = "("
     var down string = ")"
