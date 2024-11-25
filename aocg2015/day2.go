@@ -1,4 +1,4 @@
-package main
+package aocg2015
 
 import (
     "fmt"
